@@ -1,0 +1,43 @@
+.gestor-wrapper{
+  display: flex;
+  align-items: center;
+  font-family: cursive;
+  font-size: 29px;
+
+}
+.gestor{
+  margin: 30px;
+}
+.gestor p:hover{
+  color: black;
+  cursor: pointer;
+}
+.sub{
+  color: white;
+}
+.subordinados div:hover{
+  color: black;
+  cursor: pointer;
+  margin: 20px;
+}
+span{
+  color: white;
+}
+.analista-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  font-family:cursive;
+  font-size: 19px;
+  margin: 3px;
+}
+.analistas{
+  margin: 30px;
+}
+.analistas p:hover{
+  color: black;
+  cursor: pointer;
+}
+
+
