@@ -1,0 +1,24 @@
+<app-navbar></app-navbar>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>LISTA DE ANIMES</h1>
+  <div class="anime-wrapper">
+    <div *ngFor="let anime of animes">
+      <img src="{{anime.imagem}}">
+      <p>{{anime.nome}}</p>
+      <p>Genero: {{anime.genero}}</p>
+      <p>Quantidade de Episodios: {{anime.episodios}}</p>
+      <p>Finalizado: {{anime.finalizado}}</p>
+    </div>
+  </div>
+
+</body>
+</html>

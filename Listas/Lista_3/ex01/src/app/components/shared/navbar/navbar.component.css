@@ -1,0 +1,16 @@
+.navbar{
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+  font-family: cursive;
+  background-color: red;
+  color: white;
+  height: 40%px;
+}
+.navbar p{
+  cursor: pointer;
+}
+
+body{
+  background-color: black;
+}
