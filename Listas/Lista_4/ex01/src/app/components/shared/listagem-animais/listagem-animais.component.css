@@ -1,0 +1,13 @@
+.animais{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.wrapper{
+  width: 300px;
+  margin: 5px;
+  border: 1px solid bisque;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
