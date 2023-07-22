@@ -1,0 +1,10 @@
+<div class="main">
+  <div class="listagem-animais" *ngFor="let animal of animais">
+    <p>Nome: {{ animal.nome }}</p>
+    <p>Raça: {{ animal.raca }}</p>
+    <p>Peso: {{ animal.peso }}</p>
+    <div *ngIf="animal.peso > 10">
+      <img src="https://amoraospets.com/wp-content/uploads/elementor/thumbs/melhores-brinquedos-para-cachorros-pdgaifvh0t65c6u3qydvvqkwww9nc4qe44yd6a1fuw.jpg">
+    </div>
+  </div>
+</div>

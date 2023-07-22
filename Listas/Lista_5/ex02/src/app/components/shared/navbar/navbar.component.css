@@ -1,0 +1,15 @@
+.navbar{
+  display: flex;
+  margin: 5px;
+  gap: 10px;
+  font-family: cursive;
+  font-size: 15px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+
+p:hover{
+  cursor: pointer;
+  font-size: 20px;
+}
