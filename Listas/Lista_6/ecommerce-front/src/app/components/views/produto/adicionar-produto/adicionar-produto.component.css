@@ -1,0 +1,24 @@
+.adicionar-produto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.adicionar-produto input, button {
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  margin: 5px;
+  font-size: 25px;
+}
+
+.adicionar-produto button {
+  background-color: crimson;
+  color: #FFF;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
