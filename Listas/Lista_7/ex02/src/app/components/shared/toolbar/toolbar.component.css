@@ -1,0 +1,24 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.menu-icon{
+  color: white;
+  background-color: transparent;
+  border: none;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.favorite-icon{
+  color: red;
+  background-color: transparent;
+  border: none;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.login-icon{
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
